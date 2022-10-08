@@ -1,5 +1,6 @@
 #!/user/bin/env sh
 
+echo -n "Welcome!"
 echo -n "Enter your DCU username:"
 read username
 
