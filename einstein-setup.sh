@@ -23,5 +23,6 @@ echo "EINSTEIN_USERNAME='"$username"'" >> $HOME/.bashrc
 
 echo "Done."
 echo "Restart your shell (terminal) to use Einstein"
-sleep 20
+source $HOME/.bashrc
+sleep 5
 exit
