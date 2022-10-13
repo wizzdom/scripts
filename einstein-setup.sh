@@ -5,6 +5,8 @@ echo "Welcome!"
 echo 
 sleep 5
 read -p "Enter your DCU username:" dcu_username
+
+
 sleep 2
 echo "Your DCU username:" $dcu_username
 
