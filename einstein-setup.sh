@@ -8,7 +8,7 @@ sleep 2
 echo "Please enter your DCU username when prompted..."
 sleep 1
 echo
-read -p "Enter your DCU username:" dcu_username
+read -ep "Enter your DCU username:" dcu_username
 
 sleep 2
 echo "Your DCU username:" $dcu_username
