@@ -2,7 +2,7 @@
 sudo nvidia-xconfig --cool-bits=28
 
 # Raise GPU's TDP (power) limit to max:
-sudo nvidia-smi -pl 35
+sudo nvidia-smi -pl 75
 
 # Apply GPU clocks from /etc/nvoc.d/gpu0.conf :
 nvoc --apply
