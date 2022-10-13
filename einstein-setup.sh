@@ -1,10 +1,12 @@
-#!/user/bin/env sh
+#!/user/bin/env bash
 
 echo
 echo "Welcome!"
 echo 
-read -p "Enter your DCU username:" username
-echo "Your DCU username:"$username
+sleep 5
+read -p "Enter your DCU username:" dcu_username
+sleep 2
+echo "Your DCU username:" $dcu_username
 
 echo
 echo "Installing ZSH..."
@@ -19,7 +21,7 @@ sudo install -v -m 0755 einstein /usr/local/bin
 
 echo
 echo "Setting your Einstein username..."
-echo "EINSTEIN_USERNAME='"$username"'" >> $HOME/.bashrc
+echo "EINSTEIN_USERNAME='"$dcu_username"'" >> $HOME/.bashrc
 
 echo "Done."
 echo "Restart your shell (terminal) to use Einstein"
