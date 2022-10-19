@@ -11,7 +11,7 @@ echo
 read -ep "Enter your DCU username:" dcu_username
 
 sleep 2
-echo "Your DCU username:" $dcu_username
+echo "Your DCU username: " $dcu_username
 
 echo
 echo "Checking some things first..."
@@ -32,10 +32,13 @@ fi
 
 echo
 echo "Downloading Einstein..."
+sleep 2
 wget "https://einstein.computing.dcu.ie/res/einstein"
 
 echo
+sleep 2
 echo "Installing Einstein (may need your Linux password)..."
+sleep 2
 sudo install -v -m 0755 einstein /usr/local/bin
 
 echo
