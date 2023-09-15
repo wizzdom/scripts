@@ -6,7 +6,7 @@ echo "Starting virtual machine:" $VMNAME "..."
 sudo virsh start $VMNAME
 echo "Started."
 
-echo "Starting Ccream audio device with IVSHMEM interface..."
+echo "Starting Scream audio device with IVSHMEM interface..."
 scream -m /dev/shm/scream-ivshmem -t 10 &
 echo "done."
 
