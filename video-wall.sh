@@ -21,7 +21,7 @@ MONITOR="HDMI-A-1"
 # checks if the first argument is empty, if it is, then it sets the video to the default
 if [ -z $1 ]
 then
-    VIDEO=$HOME/Videos/nobara.mp4
+    VIDEO=$HOME/Videos/wallpapers/default.mp4
 else
     VIDEO="$1"
     fi
