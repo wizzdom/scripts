@@ -17,8 +17,10 @@ LIST_FILE="/tmp/video-wallpapers"
 SELECTED=$(cat $LIST_FILE | $DMENU -i -p "Select a video wallpaper")
 
 # Set the selected video as default wallpaper
-if [ -f "$DEFAULT" ]; then
-    rm -f "$DEFAULT"
+if [ "$SELECTED" ]; then
+    if [ -f "$DEFAULT" ]; then
+        rm -f "$DEFAULT"
+    fi
 fi
 
 ln -sf "$SELECTED" "$DEFAULT"
