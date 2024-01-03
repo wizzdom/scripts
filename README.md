@@ -1,4 +1,4 @@
-# Userful scripts/snippets for Linux (maybe BSD/MacOS?)
+# Useful scripts/snippets for Linux (maybe BSD/MacOS?)
 
  - **ScrnTearFix** - fixes screen tearing on Nvidia GPUs in DEs such as plasma and gnome
  - **screenlayout** - sets my screen layout (1920x1080 & 768x1366 to the right)
@@ -8,4 +8,5 @@
  - [start-virtual-cam.sh](./start-virtual-cam.sh) - use `ffmpeg` to create a virtual camera so that more than one application may access the camera
  - [qt-fix.sh](./qt-fix.sh) - recompile QT-GTK themes from the AUR against the currently-installed version of `qt5` and `qt6`
  - [iommu-check.sh](./iommu-check.sh) - lists all pcie devices and their IOMMU groups *(useful for setting up vfio)*
+ - [`video-wall.sh`](./video-wall.sh), [`video-wall-init.sh`](./video-wall-init.sh), [`video-wall-select.sh`](./video-wall-select.sh) - a set of scripts for easily setting a video as a wallpaper *(e.g. some Wallpaper Engine Wallpapers)* using `mpvpaper` and `dmenu`
  - other stuff - filenames are fairly self-explanatory
