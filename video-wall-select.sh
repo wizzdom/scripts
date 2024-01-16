@@ -12,7 +12,7 @@ DMENU="wofi --dmenu"
 # default video wallpaper
 DEFAULT="$HOME/Videos/wallpapers/default.mp4"
 
-LIST_FILE="/tmp/video-wallpapers"
+LIST_FILE="$HOME/.cache/video-wallpapers"
 
 SELECTED=$(cat $LIST_FILE | $DMENU -i -p "Select a video wallpaper")
 

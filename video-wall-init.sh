@@ -7,7 +7,7 @@ WALLENGINE_DIR="/mnt/storage/SteamLibrary/steamapps/workshop/content/431960"
 # Path to the directory where you store your own video wallpapers
 VIDEOWALL_DIR="$HOME/Videos/wallpapers"
 # Path to the file where the list of video wallpapers will be stored
-LIST_FILE="/tmp/video-wallpapers"
+LIST_FILE="$HOME/.cache/video-wallpapers"
 
 # Get the list of video files from the Wallpaper Engine Steam Workshop
 echo "Getting the list of video files from the Wallpaper Engine Steam Workshop..."
