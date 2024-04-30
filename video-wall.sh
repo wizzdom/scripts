@@ -16,7 +16,8 @@ then
 fi
 
 # set monitor
-MONITOR="HDMI-A-1"
+MONITOR1="DP-1"
+MONITOR2="HDMI-A-1"
 
 # checks if the first argument is empty, if it is, then it sets the video to the default
 if [ -z $1 ]
@@ -27,4 +28,5 @@ else
     fi
 
 # set video wallpaper
-mpvpaper -o "no-audio loop speed=0.8" $MONITOR "$VIDEO"
+mpvpaper -o "no-audio loop speed=0.8" $MONITOR1 "$VIDEO" &
+mpvpaper -o "no-audio loop speed=0.8" $MONITOR2 "$VIDEO" &
